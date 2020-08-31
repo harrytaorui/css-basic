@@ -14,18 +14,23 @@ body {
 
 h1 {
     color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
     width: 100%;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h2 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     color: rgba(255, 255, 255, 0.5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
     font-size: 22px;
     line-height: 24px;
     padding-bottom: 30px;
     text-align: left;
+    text-transform: capitalize;
 }
 
 p {
@@ -33,23 +38,41 @@ p {
     line-height: 1.3em;
     text-align: left;
     width: 100%;
+    font-family: Helvetica;
+    font-size:18px;
+    
+}
+
+p:first-line {
+    font-weight:600;
 }
 
 .image {
     background-size: cover;
     background-position: center;
     height: 300px;
+    background-image: url("../img/background-img.jpg");
 }
 
 .caption {
     display: block;
     font-family: 'Playfair Display', serif;
     font-size: 14px;
+    font-style: italic;
     line-height: 14px;
     margin-left: 20px;
     padding: 10px;
     position: relative;
     top: 80%;
     width: 60%;
+    background-color: white;
+    color:black;
+    opacity: 0.75;
+    
+}
+
+.caption a:hover {
+    text-decoration: none;
+    color:purple;
 }
 
